@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "فانتوم",
+    "slug": "phantom-app",
+    "scheme": "phantom",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.tajermorood.phantom",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.tajermorood.phantom",
+      "supportsTablet": false,
+      "buildNumber": "2"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
